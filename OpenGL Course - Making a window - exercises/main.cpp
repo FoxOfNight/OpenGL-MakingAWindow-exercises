@@ -31,22 +31,38 @@ int main() {
 	// In this case the viewport goes from x = 0, y = 0 to x = 800, y = 800 
 	glViewport(0, 0, 400, 225);
 
-	// Specify the color of the background
-	glClearColor(0.75f, 0.25f, 0.0f, 1.0f);
-	// Clean the back buffer and assign the new	color to it
-	glClear(GL_COLOR_BUFFER_BIT);
-	// Swap the back buffer with the front buffer
-	glfwSwapBuffers(window);
-	glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
-	glClear(GL_COLOR_BUFFER_BIT);
+	float red = 1.0f, green = 0.0f, blue = 0.0f, change, speed = 10.0f, prev_time = float(glfwGetTime());// Initial values
+	bool p = 1;
 
 	// Main while loop
 	while (!glfwWindowShouldClose(window)) {
-		// Do all GLFW events
-		glfwPollEvents();
-		glfwSwapBuffers(window);
-	}
+		// Making a variable for changing the colors
+		change = (float(glfwGetTime()) - prev_time) / speed;
 
+		//Changing the colors from red to green to blue to red, repeat
+		if (red > 0 && p) {
+			red -= change;
+			green += change;
+		}
+		else if (green > 0) {
+			green -= change;
+			blue += change;
+			p = 0;
+		}
+		else if (blue > 0 && !p) {
+			blue -= change;
+			red += change;
+		}
+		else {
+			p = 1;
+			prev_time = float(glfwGetTime());
+		}
+		// Do stuff
+		glClearColor(red, green, blue, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+		glfwSwapBuffers(window);
+		glfwPollEvents();
+	}
 	// Delete window
 	glfwDestroyWindow(window);
 	// Terminate GLFW
