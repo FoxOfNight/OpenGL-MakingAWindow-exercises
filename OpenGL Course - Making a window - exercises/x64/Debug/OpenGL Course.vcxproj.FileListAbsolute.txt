@@ -1,0 +1,3 @@
+C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course\x64\Debug\OpenGL Course.exe
+C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window\x64\Debug\OpenGL Course - Making a window.exe
+C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window - exercises\x64\Debug\OpenGL Course - Making a window.exe
