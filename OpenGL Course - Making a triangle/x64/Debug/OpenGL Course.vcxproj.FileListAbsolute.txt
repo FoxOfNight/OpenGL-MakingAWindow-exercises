@@ -1,1 +1,2 @@
 C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course\x64\Debug\OpenGL Course.exe
+C:\Users\stef\Documents\GitHub\OpenGL-MakingAWindow-exercises\OpenGL Course - Making a triangle\x64\Debug\OpenGL Course - Making a triangle.exe

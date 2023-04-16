@@ -14,7 +14,7 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	// Create a GLFW object
-	GLFWwindow* window = glfwCreateWindow(400, 225, "I made this!", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(800, 800, "I made this!", NULL, NULL);
 	// Check if window was created, return -1 otherwise
 	if (window == NULL) {
 		std::cout << "Failed to create GLFW window\n";
