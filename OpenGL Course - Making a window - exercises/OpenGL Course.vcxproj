@@ -72,12 +72,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window - exercises\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window - exercises\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\stef\Documents\GitHub\OpenGL-MakingAWindow-exercises\OpenGL Course - Making a window - exercises\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\stef\Documents\GitHub\OpenGL-MakingAWindow-exercises\OpenGL Course - Making a window - exercises\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window - exercises\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\stef\Documents\Visual Studio 2022\Work in Progress\OpenGL Course - Making a window - exercises\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\stef\Documents\GitHub\OpenGL-MakingAWindow-exercises\OpenGL Course - Making a window - exercises\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\stef\Documents\GitHub\OpenGL-MakingAWindow-exercises\OpenGL Course - Making a window - exercises\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
