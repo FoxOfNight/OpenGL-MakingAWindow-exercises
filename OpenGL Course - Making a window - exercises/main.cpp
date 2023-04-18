@@ -31,7 +31,7 @@ int main() {
 	// In this case the viewport goes from x = 0, y = 0 to x = 800, y = 800 
 	glViewport(0, 0, 400, 225);
 
-	float red = 1.0f, green = 0.0f, blue = 0.0f, change, speed = 10.0f, prev_time = float(glfwGetTime());// Initial values
+	float red = 1.0f, green = 0.0f, blue = 0.0f, change, speed = 1000.0f, prev_time = float(glfwGetTime());// Initial values
 	bool p = 1;
 
 	// Main while loop

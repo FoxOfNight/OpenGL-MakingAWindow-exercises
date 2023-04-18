@@ -133,7 +133,7 @@ int main() {
 		glUseProgram(shaderProgram);
 		// Bind the VAO so OpenGL knows to use it
 		glBindVertexArray(VAO[0]);
-		// Draw 
+		// Draw the thing
 		glDrawArrays(GL_LINE_LOOP, 0, 4);
 		// Swap the back buffer with the front buffer
 		glfwSwapBuffers(window);
